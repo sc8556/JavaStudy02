@@ -5,14 +5,12 @@ class Updater {
         counter.count++;
     }
 } // 전달받은 숫자를 1만큼 증가시키는 메서드
-
 class Counter {
     int count = 0; // 객체변수
-    } // count라는 객체변수를 선언
-
+}
 public class Sample02 {
     public static void main(String[] args) {
-        Counter myCounter = new Counter(); // int count = 0;
+        Counter myCounter = new Counter(); // Counter 클래스 호출 및 myCounter 객체변수 선언
 
         System.out.println("before update: " + myCounter.count); // 0
 
