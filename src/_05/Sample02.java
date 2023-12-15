@@ -10,11 +10,11 @@ class Counter {
 }
 public class Sample02 {
     public static void main(String[] args) {
-        Counter myCounter = new Counter(); // Counter 클래스 호출 및 myCounter 객체변수 선언
+        Counter myCounter = new Counter(); // Counter 클래스에 대한 myCounter 객체변수 선언
 
         System.out.println("before update: " + myCounter.count); // 0
 
-        Updater myUpdater = new Updater(); // myUpdater 객체변수 선언
+        Updater myUpdater = new Updater(); // Updater 클래스에 대한 myUpdater 객체변수 선언
         myUpdater.update(myCounter);
 
         System.out.println("after update: " + myCounter.count);
